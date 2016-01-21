@@ -20,3 +20,25 @@ html {
 body {
     background-color: blanchedalmond;
 }
+
+.btn {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 0.8em;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: lightgray;
+}
+
+.btn i {
+    vertical-align: middle;
+    font-size: 2em;
+    color: #505050;   
+}
