@@ -59,3 +59,28 @@ p {
     color: grey;
     text-align: center;
 }
+
+@media only screen and (min-width: 35em) {
+    
+    .btn {
+        margin-left: 10rem;
+    
+}
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .btn {
+        margin-left: 17rem;
+    
+}
+}
+
+@media only screen and (min-width: 90em) {
+    
+        .btn {
+            
+            margin-left: 19rem;
+    
+}
+}
