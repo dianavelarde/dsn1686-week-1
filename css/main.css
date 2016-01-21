@@ -28,7 +28,8 @@ body {
     padding: 1em;
     border-radius: 5%;
     display: inline-block;
-    margin: 0.8em;
+    margin: .8em;
+    margin-left: 10rem;
     font-family: sans-serif;
     
 }
@@ -36,22 +37,25 @@ body {
 .btn:hover,
 .btn:active,
 .btn:focus {
-    background-color: lightcyan;    
+    background-color: lavenderblush;    
 }
 
 .btn i {
     vertical-align: middle;
     font-size: 2.5em;
-    color: #505050;   
+    color: #505050;  
 }
 
 h1 {
     font-family: 'Cookie', cursive;
     font-size: 5em; 
+    text-align: center;
+    padding-top: 2em;
 }
 
 p {
     font-family: sans-serif;
-    font-weight: 2em;
-    
+    font-size: 1.5em;
+    color: grey;
+    text-align: center;
 }
