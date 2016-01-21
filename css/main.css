@@ -29,16 +29,29 @@ body {
     border-radius: 5%;
     display: inline-block;
     margin: 0.8em;
+    font-family: sans-serif;
+    
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus {
-    background-color: lightgray;
+    background-color: lightcyan;    
 }
 
 .btn i {
     vertical-align: middle;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #505050;   
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 5em; 
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 2em;
+    
 }
